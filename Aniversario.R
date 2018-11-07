@@ -1,9 +1,9 @@
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
-#                             DUPLO ANIVERS¡RIO                                 #
+#                             DUPLO ANIVERS√ÅRIO                                 #
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
 
 # Calcula a probabilidade de que em um grupo de tamanho n, existam ao menos duas pessoas com a mesma
-# data de anivers·rio! O teste realiza ntests simulaÁıes!
+# data de anivers√°rio! O teste realiza ntests simula√ß√µes!
 
 aniversario <- function(n, ntests = 100000){
         datas  <- 1:365
@@ -16,12 +16,12 @@ aniversario <- function(n, ntests = 100000){
 }
 
 # Exemplo: Turma de 40 alunos!
-exemplo <- aniversario(40)
-print(exemplo)
+# exemplo <- aniversario(40)
+# print(exemplo)
 
-# An·lise do tempo de c·lculo
-system.time(aniversario(40))
+# An√°lise do tempo de c√°lculo
+# system.time(aniversario(40))
 
 # Curva de probabilidade entre 1 e 100 alunos:
-cum.prob = sapply(1:100, aniversario)
+# cum.prob = sapply(1:100, aniversario)
 
