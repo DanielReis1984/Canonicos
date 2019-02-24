@@ -3,7 +3,9 @@
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
 # Daniel Reis
 
-# S� rodar!!!
+# Vídeos importantes:
+        # (1) https://www.youtube.com/watch?v=luGZC-5DeQA
+# Só rodar!!!
 
 #import packages
 library(foreach)
