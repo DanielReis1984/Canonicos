@@ -2,7 +2,9 @@
 #                         Neural Networks form Scratch
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
 
-# References: https://www.tychobra.com/posts/2018_10_09_nn_from_scratch/
+# References: 
+# [1] https://www.tychobra.com/posts/2018_10_09_nn_from_scratch/
+# [2] https://www.youtube.com/watch?v=i40Road82No
 
 X <- matrix(c(0,0,1,
               0,1,1,
